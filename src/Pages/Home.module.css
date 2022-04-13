@@ -1,0 +1,61 @@
+.nav_img{
+    width: 100%;
+    height: 200px;
+    
+}
+.dr_list{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+}
+.cards{
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    margin: 4vh 1vh;
+    font-size: 15px;
+    
+}
+.cards h1{
+    font-size: 15px;
+}
+.cards > button{
+    color: white;
+    background-color: rgb(240, 98, 47);
+    border: none;
+    padding: 2vh;
+    margin: 1vh;
+    border-radius: 1vh;
+    width: 300px;
+
+}
+.cards > button:hover{
+    color: white;
+    background-color: rgb(139, 79, 56);
+   
+}
+
+.time_slot_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    
+}
+.time_slot_div > button{
+    background-color: rgb(235, 111, 39);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 1vh;
+}
+.details_div{
+    margin: 2vh;
+}
+.details_div > input{
+    width: 200px;
+    font-size: 20px;
+}
