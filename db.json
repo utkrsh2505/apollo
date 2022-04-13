@@ -13,11 +13,7 @@
       "Speciality": "Heart",
       "Availability" : "5 PM to  7 PM",
       "Booked_slot":[
-        {"time" :"5:20 PM","status":"false","_id":1},
-        {"time": "5:40 PM", "status":"false","_id":2},
-        {"time": "6:00 PM", "status":"false","_id":3},
-        {"time": "6:20 PM", "status":"false","_id":4},
-        {"time": "6:40 PM", "status":"false","_id":5}
+       
       ],
       "Cost" : 400
     },
@@ -27,11 +23,11 @@
       "Speciality": "Skin",
       "Availability" : "5 PM to  7 PM",
       "Booked_slot":[
-        {"time" :"5:20 PM","status":"false","_id":1},
-        {"time": "5:40 PM", "status":"false","_id":2},
-        {"time": "6:00 PM", "status":"false","_id":3},
-        {"time": "6:20 PM", "status":"false","_id":4},
-        {"time": "6:40 PM", "status":"false","_id":5}
+        {"time" :"5:20 ","status":"false","_id":1},
+        {"time": "5:40 ", "status":"false","_id":2},
+        {"time": "6:00 ", "status":"false","_id":3},
+        {"time": "6:20 ", "status":"false","_id":4},
+        {"time": "6:40 ", "status":"false","_id":5}
       ],
       "Cost" : 400
     },
@@ -41,11 +37,11 @@
       "Speciality": "Dentist",
       "Availability" : "5 PM to  7 PM",
       "Booked_slot":[
-        {"time" :"5:20 PM","status":"false","_id":1},
-        {"time": "5:40 PM", "status":"false","_id":2},
-        {"time": "6:00 PM", "status":"false","_id":3},
-        {"time": "6:20 PM", "status":"false","_id":4},
-        {"time": "6:40 PM", "status":"false","_id":5}
+        {"time" :"5:20 ","status":"false","_id":1},
+        {"time": "5:40 ", "status":"false","_id":2},
+        {"time": "6:00 ", "status":"false","_id":3},
+        {"time": "6:20 ", "status":"false","_id":4},
+        {"time": "6:40 ", "status":"false","_id":5}
       ],
       "Cost" : 500
     },
@@ -55,11 +51,11 @@
       "Speciality": "Eyes Specialist",
       "Availability" :"5 PM to  7 PM",
       "Booked_slot":[
-        {"time" :"5:20 PM","status":"false","_id":1},
-        {"time": "5:40 PM", "status":"false","_id":2},
-        {"time": "6:00 PM", "status":"false","_id":3},
-        {"time": "6:20 PM", "status":"false","_id":4},
-        {"time": "6:40 PM", "status":"false","_id":5}
+        {"time" :"5:20 ","status":"false","_id":1},
+        {"time": "5:40 ", "status":"false","_id":2},
+        {"time": "6:00 ", "status":"false","_id":3},
+        {"time": "6:20 ", "status":"false","_id":4},
+        {"time": "6:40 ", "status":"false","_id":5}
       ],
       "Cost" : 600
     },
@@ -69,11 +65,11 @@
       "Speciality": "Bone",
       "Availability" : "5 PM to  7 PM",
       "Booked_slot":[
-        {"time" :"5:20 PM","status":"false","_id":1},
-        {"time": "5:40 PM", "status":"false","_id":2},
-        {"time": "6:00 PM", "status":"false","_id":3},
-        {"time": "6:20 PM", "status":"false","_id":4},
-        {"time": "6:40 PM", "status":"false","_id":5}
+        {"time" :"5:20 ","status":"false","_id":1},
+        {"time": "5:40 ", "status":"false","_id":2},
+        {"time": "6:00 ", "status":"false","_id":3},
+        {"time": "6:20 ", "status":"false","_id":4},
+        {"time": "6:40 ", "status":"false","_id":5}
       ],
       "Cost" : 500
     },
@@ -83,11 +79,11 @@
       "Speciality": "Cardio",
       "Availability" : "5 PM to  7 PM",
       "Booked_slot":[
-        {"time" :"5:20 PM","status":"false","_id":1},
-        {"time": "5:40 PM", "status":"false","_id":2},
-        {"time": "6:00 PM", "status":"false","_id":3},
-        {"time": "6:20 PM", "status":"false","_id":4},
-        {"time": "6:40 PM", "status":"false","_id":5}
+        {"time" :"5:20 ","status":"false","_id":1},
+        {"time": "5:40 ", "status":"false","_id":2},
+        {"time": "6:00 ", "status":"false","_id":3},
+        {"time": "6:20 ", "status":"false","_id":4},
+        {"time": "6:40 ", "status":"false","_id":5}
       ],
       "Cost" : 800
     }

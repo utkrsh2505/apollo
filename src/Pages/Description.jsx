@@ -7,25 +7,23 @@ import axios from 'axios';
 export const Description = () => {
   const {id} = useParams();
  const [data,setData] = useState([]);
- const [slot_Time,setSlot_Time] = useState();
+ const [slot_Time,setSlot_Time] = useState("");
  
  
  const handleBook = ()=>{
-   console.log("time",setSlot_Time)
+   console.log("time",slot_Time)
    const payload ={
      time :setSlot_Time
    }
-  // axios.post(`http://localhost:3001/Dr/${id}`,{
-    
-  // "Booked_slot" : payload})
-  // .then((res)=>{
-  //    console.log(res.data.Booked_slot)
-  //   setData(res.data.Booked_slot)
+   axios.post(`http://localhost:3001/Dr/${id}`, payload)
+   .then((res)=>{
+      console.log(res.data.Booked_slot)
+     setData(res.data.Booked_slot)
       
-  // })
-  // .catch((err)=>{
-  //   console.log(err)
-  // })
+   })
+   .catch((err)=>{
+     console.log(err)
+   })
  }
   useEffect(()=>{
               axios.get(`http://localhost:3001/Dr/${id}`)
@@ -56,7 +54,7 @@ export const Description = () => {
         </div>
         <div className={styles.details_div}>
         
-          <input type="text" placeholder='Patient Name' value={slot_Time} onChange={(e)=>setSlot_Time(e.target.value)} />
+          <input type="text" placeholder='Patient Name' />
           <br/>
           <br/>
          
@@ -66,7 +64,7 @@ export const Description = () => {
           <input type="date" placeholder='Select Date' />
           <br/>
           <br/>
-          <input type="time" placeholder='Select Time'  />
+          <input type="time" placeholder='Select Time'  value={slot_Time || ''} onChange={(e)=>{setSlot_Time(e.target.value)}} />
           <br/>
           <br/>
           <button onClick={()=>handleBook()}>Book</button>
