@@ -1,0 +1,106 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "Dr": [
+    {
+      "id": 1,
+      "Doctor" : " Dr. S.K. Singh",
+      "Speciality": "Heart",
+      "Availability" : "5 PM to  7 PM",
+      "Booked_slot":[
+        {"time" :"5:20 PM","status":"false","_id":1},
+        {"time": "5:40 PM", "status":"false","_id":2},
+        {"time": "6:00 PM", "status":"false","_id":3},
+        {"time": "6:20 PM", "status":"false","_id":4},
+        {"time": "6:40 PM", "status":"false","_id":5}
+      ],
+      "Cost" : 400
+    },
+    {
+      "id": 2,
+      "Doctor" : "Dr. V.P. Shukla",
+      "Speciality": "Skin",
+      "Availability" : "5 PM to  7 PM",
+      "Booked_slot":[
+        {"time" :"5:20 PM","status":"false","_id":1},
+        {"time": "5:40 PM", "status":"false","_id":2},
+        {"time": "6:00 PM", "status":"false","_id":3},
+        {"time": "6:20 PM", "status":"false","_id":4},
+        {"time": "6:40 PM", "status":"false","_id":5}
+      ],
+      "Cost" : 400
+    },
+    {
+      "id": 3,
+      "Doctor" : "Dr. Vikas ",
+      "Speciality": "Dentist",
+      "Availability" : "5 PM to  7 PM",
+      "Booked_slot":[
+        {"time" :"5:20 PM","status":"false","_id":1},
+        {"time": "5:40 PM", "status":"false","_id":2},
+        {"time": "6:00 PM", "status":"false","_id":3},
+        {"time": "6:20 PM", "status":"false","_id":4},
+        {"time": "6:40 PM", "status":"false","_id":5}
+      ],
+      "Cost" : 500
+    },
+    {
+      "id": 4,
+      "Doctor" : "Dr. Satish Rai",
+      "Speciality": "Eyes Specialist",
+      "Availability" :"5 PM to  7 PM",
+      "Booked_slot":[
+        {"time" :"5:20 PM","status":"false","_id":1},
+        {"time": "5:40 PM", "status":"false","_id":2},
+        {"time": "6:00 PM", "status":"false","_id":3},
+        {"time": "6:20 PM", "status":"false","_id":4},
+        {"time": "6:40 PM", "status":"false","_id":5}
+      ],
+      "Cost" : 600
+    },
+    {
+      "id": 5,
+      "Doctor" : "Dr. Saurabh Kushwaha",
+      "Speciality": "Bone",
+      "Availability" : "5 PM to  7 PM",
+      "Booked_slot":[
+        {"time" :"5:20 PM","status":"false","_id":1},
+        {"time": "5:40 PM", "status":"false","_id":2},
+        {"time": "6:00 PM", "status":"false","_id":3},
+        {"time": "6:20 PM", "status":"false","_id":4},
+        {"time": "6:40 PM", "status":"false","_id":5}
+      ],
+      "Cost" : 500
+    },
+    {
+      "id": 6,
+      "Doctor" : "Dr. Sanjeev",
+      "Speciality": "Cardio",
+      "Availability" : "5 PM to  7 PM",
+      "Booked_slot":[
+        {"time" :"5:20 PM","status":"false","_id":1},
+        {"time": "5:40 PM", "status":"false","_id":2},
+        {"time": "6:00 PM", "status":"false","_id":3},
+        {"time": "6:20 PM", "status":"false","_id":4},
+        {"time": "6:40 PM", "status":"false","_id":5}
+      ],
+      "Cost" : 800
+    }
+
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
