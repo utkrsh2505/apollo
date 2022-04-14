@@ -15,7 +15,7 @@ export const Description = () => {
    const payload ={
      time :setSlot_Time
    }
-   axios.post(`http://localhost:3001/Dr/${id}`, payload)
+   axios.post(`https://dbmedicine.herokuapp.com/Dr/${id}`, payload)
    .then((res)=>{
       console.log(res.data.Booked_slot)
      setData(res.data.Booked_slot)
@@ -26,7 +26,7 @@ export const Description = () => {
    })
  }
   useEffect(()=>{
-              axios.get(`http://localhost:3001/Dr/${id}`)
+              axios.get(`https://dbmedicine.herokuapp.com/Dr/${id}`)
               .then((res)=>{
                  console.log(res.data.Booked_slot)
                 setData(res.data.Booked_slot)
